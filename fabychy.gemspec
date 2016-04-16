@@ -1,15 +1,15 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rubychy/version'
+require 'fabychy/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "rubychy"
+  spec.name          = "fabychy"
   spec.version       = Fabychy::VERSION
   spec.authors       = ["Nima Kaviani"]
   spec.email         = ["nima@robochy.com"]
   spec.description   = %q{Ruby client for Facebook Bot API}
   spec.summary       = %q{Ruby client for Facebook Bot API}
-  spec.homepage      = "https://github.com/nkaviani/rubychy"
+  spec.homepage      = "https://github.com/nkaviani/fabychy"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
