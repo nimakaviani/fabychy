@@ -56,8 +56,15 @@ message = Fabychy::Message.new(
   message: {
     text: "hi there"
   },
-  notification_type: Fabychy::Notification::SILENT_PUSH
+  notification_type: Fabychy::Notification::REGULAR
 )
+```
+
+The following notification types can be used:
+```ruby
+Fabychy::Notification::REGULAR
+Fabychy::Notification::SILENT_PUSH
+Fabychy::Notification::NO_PUSH
 ```
 
 ## DataTypes and Validations
