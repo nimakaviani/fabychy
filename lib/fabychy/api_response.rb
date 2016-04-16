@@ -25,7 +25,7 @@ module Fabychy
     end
 
     def self.parse(request)
-     Fabychy::DataTypes::ReceivedMessages.new(MultiJson.load(request.body))
+      MultiJson.load(request.body)
     end
 
     alias_method :success?, :success
