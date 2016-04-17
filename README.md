@@ -48,7 +48,7 @@ bot.get_user('[USER_ID]')
 ## Sending Messages
 With a created bot you can create messages of different types, attach custom keyboards, and pass them to the `send_message` function as follows:
 ```ruby
-require 'fabychy/message'
+require 'fabychy'
 
 bot = Fabychy::Bot.new('[PAGE ACCESS TOKEN]')
 message = Fabychy::Message.new(
