@@ -5,7 +5,7 @@
 </td>
 <td>
 <h1>fabychy</h1>
-A ruby client for <a href="https://messengerplatform.fb.com/">Facebook Messenger's bot API</a> provided by <a href="http://robochy.com">Robochy</a>. The fabychy library borrows heavily from the <a href="https://github.com/mayoral/telegrammer">Telegrammer</a> API, developed by <a href="https://github.com/mayoral">Luis Mayoral</a>.
+A ruby client for <a href="https://messengerplatform.fb.com/">Facebook Messenger's bot API</a> provided by <a href="http://robochy.com">Robochy</a>. 
 </td>
 </tr>
 </table>
