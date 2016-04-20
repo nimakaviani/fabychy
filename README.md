@@ -1,6 +1,6 @@
 <!--
   Title: fabychy
-  Description: A ruby cient for Facebook Messenger's bot API
+  Description: A ruby client for Facebook Messenger's bot API
   Author: Nima Kaviani - nkaviani
   -->
 <meta name='keywords' content='fabychy, facebook, bot, ruby, api, library'>
