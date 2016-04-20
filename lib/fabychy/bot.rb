@@ -13,7 +13,7 @@ module Fabychy
     end
 
     def send_message(message)
-      api_post("me/messages?access_token=#{@access_token}", Fabychy::Sanitizer.sanitize(message))
+      api_post("me/messages?access_token=#{@access_token}", Fabychy::Sanitizer.sanitize(:msg, message))
     end
 
     def get_user(user_id)
