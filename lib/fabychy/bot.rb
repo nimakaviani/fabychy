@@ -17,7 +17,7 @@ module Fabychy
     end
 
     def get_user(user_id)
-      response = api_get("#{user_id}?fields=first_name,last_name,profile_pic&access_token=#{@access_token}")
+      response = api_get("#{user_id}?fields=first_name,last_name,profile_pic,locale,timezone,gender&access_token=#{@access_token}")
       Fabychy::DataTypes::User.new(response.result)
     end
 
